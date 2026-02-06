@@ -3,3 +3,11 @@
     padding:0;
     box-sizing: border-box;
 }
+.hero{
+    width:500px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+}
