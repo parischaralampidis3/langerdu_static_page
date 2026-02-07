@@ -59,12 +59,11 @@ img {
     justify-content: center;
     align-items: center;  
     max-width:100%;
-    width:80%;
+    width:78%;
     margin-bottom: 30px;
 }
 .problem-container{
     width:700px;
-    
 }
 .problem-heading{
 font-size:2rem;
@@ -87,4 +86,63 @@ li{
     margin-top:20px;
     font-size:1.2rem;
     font-weight: bold;
+}
+
+
+.solution-container{
+    padding:40px;
+    margin-top:80px;
+    max-width:100%;
+    display:flex;
+    flex-direction:column;
+    width:78%;
+    justify-content:center;
+    align-items: center;
+}
+.solution-heading{
+    font-size:1rem;
+    width:700px;
+    font-weight:600;
+    text-align:left;
+}
+.solution-sub-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+    height:300px;
+    margin-top:50px;
+}
+.solution-sub-card{
+    margin-left:50px;
+    padding:30px;
+    width:500px;
+}
+.solution-sub-card-heading{
+    font-size:1.5rem;
+    font-weight:600;
+    margin-bottom:20px;
+}
+.solution-sub-card-text{
+    font-size:1.2rem;
+    line-height:1.4;
+}
+.call-to-action-container{
+    display:flex;
+    max-width:100%;
+    width:90%;
+    justify-content:center;
+    align-items: center;
+    margin-top:30px;
+    height:300px;
+}
+.call-to-action-heading{
+    font-size: 1.4rem;
+    width:400px;
+}
+.footer-container{
+    width:100%;
+    max-width:100%;
+    text-align: center;
 }
