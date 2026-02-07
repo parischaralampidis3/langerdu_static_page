@@ -60,6 +60,7 @@ img {
     align-items: center;  
     max-width:100%;
     width:80%;
+    margin-bottom: 30px;
 }
 .problem-container{
     width:700px;
@@ -73,9 +74,17 @@ font-weight:600;
     margin-top:20px;
     line-height:1.4;
 }
-ol li{
+ul li{
     padding:5px;
+    list-style-type: none;
 }
 li{
     font-size:1.2rem;
+    ;
+}
+
+.problem-subheading{
+    margin-top:20px;
+    font-size:1.2rem;
+    font-weight: bold;
 }
