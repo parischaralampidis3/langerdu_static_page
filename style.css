@@ -68,6 +68,7 @@ img {
 .problem-heading{
 font-size:2rem;
 font-weight:600;
+width:800px;
 }
 .problem-subheading-container{
     margin-top:20px;
@@ -121,23 +122,25 @@ li{
     line-height:1.8;
     width:220px;
     font-weight:600;
-    
 }
 .container-flex{
     margin-left:50px;
 }
 .call-to-action-container{
+    
     max-width:100%;
-    width:65%;
+    width:70%;
     justify-content:space-around;
     align-items: center ;
-    margin-top:30px;
-    height:500px;
-    margin-top:50px;
+    height:370px;
 }
-.call-to-action-heading{
-    font-size: 1.4rem;
+.call-to-action-link{
+    width:280px;
 }
+.call-to-subtext{
+    margin-left:50px;
+}
+
 .footer-container{
     width:100%;
     max-width:100%;
