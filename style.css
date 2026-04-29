@@ -1,6 +1,9 @@
 *,body{
 margin-top: 0px;
 }
+.green-background{
+    width:100%;
+}
 .green-block{
     position: relative;
    
@@ -12,10 +15,10 @@ margin-top: 0px;
     width:150px;
 }
 .illustration_header{
-    width: 600px;
+    width: 500px;
     position: absolute;
-    top:200px;
-    left:300px;
+    top:170px;
+    left:20%;
 }
 .green-container{
     display: flex;
@@ -27,9 +30,22 @@ color:white;
 font-weight:500;
 width:500px;
 }
-
 .green-heading-block{
-   position: absolute;
-top:250px;
-left:50%; 
+position: absolute;
+top:280px;
+left:60%; 
 }
+.heading-button{
+    background-color:#ffda40;
+    width:420px;
+    height:50px;
+    font-size:24px;
+    margin-top:30px;
+    font-weight: 600;
+    color:#082112;
+}
+
+@media (min-width: 1024px) {
+.green-block{
+    position: relative;
+}}
