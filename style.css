@@ -12,7 +12,12 @@
     height: 1000px;
     object-fit: cover;
 }
-
+.blue_character{
+    position: absolute;
+        width: 200px;
+        margin-left:80vh;
+        margin-top:-250px;
+}
 
 /* Logo (fine to keep absolute) */
 .logo {
@@ -81,6 +86,37 @@
     margin-left:150px;
     margin-top:50px;
 }
+.third-section-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-top:50px;
+    padding: 40px 0px;
+     margin-left: 10vh;
+    }
+.third-img-item{
+    width:160px;
+    margin-right:140px;
+}
+.third-section-text-container{
+    display:flex;
+    flex-direction:column;
+     justify-content: center;
+     align-items: center;
+  text-align:left;
+    margin-top:80px;
+    
+}
+
+.third-text-item{
+    font-weight:600px;
+    font-size:29px;
+    width:600px;
+    padding:30px;
+    color:#162f42;
+    margin-right:70px;
+}
 
 .second-content {
     max-width: 600px;
@@ -98,6 +134,16 @@
 
 }
 
+  .third_section_heading {
+        font-size: 50px;
+       margin-top:350px;
+        font-weight:600;
+        text-align: center;
+        color:  #162f42;
+        }
+.third-section{
+    margin-top:150px;
+}
 /* List */
 .second_section_list {
     color: #162f42;
@@ -112,7 +158,9 @@
 
 hr {
     width: 100%;
-    margin: 15px 0;
+    margin: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 /* BUTTON */
@@ -131,11 +179,39 @@ hr {
     text-align: center;
     margin-top: 20px;
 }
+.fourth-section-img{
+ position: relative;
+
+    margin-top:50px;
+    padding: 20px 0px;
+     margin-left: 0vh;
+     width: 100%;
+ }
 
 
 
 @media (max-width: 1124px) {
+    .third-section{
+        position: relative;
+    }
 
+
+
+     .third_section_heading {
+        font-size: 20px;
+       margin-top:150px;
+        font-weight:600;
+        text-align: center;
+        color:  #162f42;
+        }
+
+.heading-button-text{
+    font-size: 20px;
+     font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
 
     .hero-content {
         flex-direction: column;
@@ -174,20 +250,32 @@ hr {
 }
 
     .second-section-container {
-        padding: 50px 20px;
+        padding: 0px 0px;
         justify-content: center;
           margin-left:50px;
-          margin-bottom:0px;
+          
     }
 
     .second_section_heading {
         font-size: 30px;
         margin-right:90px;
         text-align: center;
+        margin-bottom: 130px;
         }
 
+        
+    .third_section_heading {
+        font-size: 39px;
+        margin-right:90px;
+        margin-top:290px;
+        font-weight:600;
+        text-align: center;
+        color:  #162f42;
+        }
+
+
     .second_section_list {
-        font-size: 18px;
+        font-size: 28px;
         text-align: center;
          margin-right:90px;
     }
@@ -196,14 +284,63 @@ hr {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom:200px;
+        margin-top:-100px;
     }
 
+    .blue_character{
+        position: absolute;
+        width: 190px;
+        margin-top:-200px;
+        margin-left:30vh;
+    }
 
 
   
 }@media (max-width: 896px) {
+    .blue_character{
+        position: absolute;
+        width: 130px;
+        margin-top:-160px;
+        margin-left:20vh;
+    }
+  .third_section_heading {
+        font-size: 29px;
+       margin-top:400px;
+        font-weight:600;
+        margin-left:70px;
+        text-align: center;
+        color:  #162f42;
+        }
 
+        .third-img-item{
+    width:70px;
+    margin-right:140px;
+}
+.third-text-item{
+    font-weight:600px;
+    font-size:20px;
+    width:300px;;
+    padding:30px;
+    color:#162f42;
+    margin-right:70px;
+}
+
+
+
+.third-section-text-container{
+    display:flex;
+    flex-direction:column;
+     justify-content: center;
+     align-items: center;
+  text-align:left;
+    margin-top:30px;
+    padding:10px;
+    
+}
+
+.third-section{
+    margin-top:180px;
+}
 
     .hero-content {
         flex-direction: column;
@@ -266,10 +403,10 @@ hr {
         position: absolute;
         flex-direction: column;
         align-items: center;
-        bottom:-180%;
-    
-        
+        bottom:-180%; 
     }
+
+
 
     .second_asset {
         display: none;
@@ -285,6 +422,8 @@ hr {
 
     .green-background {
         height: 860px;
+        margin-left:3px;
+        width:1000px;   
     }
     .second_asset{ 
         display:none;
