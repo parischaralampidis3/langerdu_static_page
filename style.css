@@ -8,7 +8,12 @@ body {
 .green-block {
     position: relative;
 }
-
+.second_section_list hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #162f42;
+    margin: 25px 0;
+}
 .green-background {
     width: 100%;
     height: 1000px;
@@ -184,7 +189,7 @@ hr {
 }
 
 .heading-button-text {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
     font-size: 24px;
     text-align: center;
@@ -263,7 +268,7 @@ hr {
 .fourth-section-button-text {
     margin: 0;
     color: #162f42;
-    font-size: clamp(16px, 2vw, 21px);
+    font-size: clamp(16px, 2vw, 17px);
     font-weight: 600;
     text-align: center;
 }
@@ -321,7 +326,7 @@ hr {
 .fourth-section-button-text {
     margin: 0;
     color: #162f42;
-    font-size: clamp(16px, 2vw, 24px);
+    font-size: clamp(16px, 2vw, 19px);
     font-weight: 600;
 }
 
@@ -331,7 +336,12 @@ hr {
     .third-section {
         position: relative;
     }
-
+.second_section_list hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #162f42;
+    margin: 25px 0;
+}
 
 
     .third_section_heading {
@@ -441,6 +451,13 @@ hr {
 }
 
 @media (max-width: 896px) {
+   
+.second_section_list hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #162f42;
+    margin: 25px 0;
+}
     .fourth-section-container {
         min-height: 500px;
     }
@@ -606,8 +623,6 @@ hr {
         align-items: center;
         bottom: -180%;
     }
-
-
 
     .second_asset {
         display: none;
