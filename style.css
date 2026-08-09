@@ -34,6 +34,33 @@ body {
     left: 40px;
     width: 140px;
 }
+footer{
+    padding:40px;
+}
+.first-footer-section{
+
+    margin-top:30px;
+}
+.footer-logo {
+    width: 140px;
+    margin-bottom: 20px;
+}
+.footer-text{
+    color:#ddd;
+    font-size:14px;
+    width:400px;
+} 
+.footer-copyright{
+    color:#ddd;
+    font-size:14px;
+    text-align:center;
+    margin: 0 auto;
+}
+footer hr {
+ margin-top: 20px;
+ height:0.2px;
+border-color: #999;
+}
 
 /* FLEX CONTAINER */
 .hero-content {
@@ -106,7 +133,7 @@ body {
     gap: 50px;
     margin: 80px auto;
     padding: 0 5%;
-    max-width: 1400px;
+    max-width: 900px;
 }
 
 .third-section-text-container {
@@ -122,13 +149,26 @@ body {
     width: 100px;
     margin-bottom: 25px;
 }
-
+.third-img-item_pdf {
+    width: 110px;
+    margin-bottom: 25px;
+}
+.third-text-item-pdf {
+    font-size: 23px;
+    font-weight: 500;
+    color: #162f42;
+    line-height: 1.5;
+    margin: 0;
+    margin-top:12px;
+    width:300px;
+}
 .third-text-item {
     font-size: 23px;
     font-weight: 500;
     color: #162f42;
     line-height: 1.5;
     margin: 0;
+    width:300px;
 }
 
 .second-content {
