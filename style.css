@@ -554,7 +554,7 @@ hr {
         position: absolute;
         width: 130px;
         margin-top: -160px;
-        margin-left: 15vh;
+        margin-left: 15 vh;
     }
 
     .third_section_heading {
@@ -564,7 +564,7 @@ hr {
         margin-left: 70px;
         text-align: center;
         color: #162f42;
-    }
+     }
 
     .third-img-item {
         width: 70px;
